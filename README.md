@@ -43,18 +43,19 @@ Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomn
 
 ### Backend
 
-- A partir da raiz do projeto, entre na pasta rodando `cd server`;
+- A partir da raiz do projeto, entre na pasta rodando `cd backend`;
 - Rode `yarn` para instalar sua dependências;
 - Rode `cp .env.example .env` e preencha o arquivo `.env` com SUAS variáveis ambiente;
 - Rode `yarn migrate` para executar as migrations;
 - Rode `yarn seed` para executar os seeds;
 - Rode `yarn dev` para iniciar o servidor;
+- Rode `yarn queue` para iniciar o processo de fila (envio de emails);
 
 ### Web
 
 _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd web`;
+- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd frontend`;
 - Rode `yarn` para instalar as dependências;
 - Rode `yarn start` para iniciar o client web;
 
