@@ -46,7 +46,6 @@ Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomn
 - A partir da raiz do projeto, entre na pasta rodando `cd server`;
 - Rode `yarn` para instalar sua dependências;
 - Rode `cp .env.example .env` e preencha o arquivo `.env` com SUAS variáveis ambiente;
-- Rode `docker-compose up -d` para montar o ambiente;
 - Rode `yarn migrate` para executar as migrations;
 - Rode `yarn seed` para executar os seeds;
 - Rode `yarn dev` para iniciar o servidor;
@@ -68,6 +67,6 @@ _ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
 - A partir da raiz do projeto, entre na pasta do frontend mobile rodando `cd mobile`;
 - Rode `yarn` para instalar as dependências;
 - Edite o arquivo `mobile/src/services/api.js`, alterando `baseURL` para o IP correspondente a máquina que estiver executando o `backend`;
-- Abra o emulador do Android ou conecte seu dispositivo via USB, em seguida, rode `yarn react-native run-android`;
+- Abra o emulador do Android ou conecte seu dispositivo via USB, em seguida, rode `yarn android`;
 
 
